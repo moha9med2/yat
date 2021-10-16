@@ -19,6 +19,7 @@ class HomeController extends Controller
             $name;
         }
         
+        
        
         return view('contact',compact('name','arr','n'));
     }

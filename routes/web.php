@@ -20,3 +20,5 @@ Route::get('/', function () {
 
 Route::get('/contact', [HomeController::class,'contact']);
 Route::get('/about', [HomeController::class, 'about']);
+
+Route::get('/product',[HomeController::class, 'about']);
